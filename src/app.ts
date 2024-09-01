@@ -29,3 +29,7 @@ let data: any[] = [1, 'John', true, [1, 2, 3]];
 
 let nothing: undefined = undefined;
 let anohtherNothing: null = null;
+
+import { add } from './util';
+var util = require('./util');
+console.log('The sum or 1 and 2 is'.concat((0, util.add)(10, 20)));
