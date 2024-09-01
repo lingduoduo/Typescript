@@ -27,3 +27,5 @@ let something: any = 'hello';
 
 let data: any[] = [1, 'John', true, [1, 2, 3]];
 
+let nothing: undefined = undefined;
+let anohtherNothing: null = null;
