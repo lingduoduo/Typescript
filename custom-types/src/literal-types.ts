@@ -25,3 +25,5 @@ function isBattelshipMove(str: string): str is BattleshipMove {
     let [row, col] = str.split("");
     return isRowLabel(row) && isColLabel(col);
 }
+
+
