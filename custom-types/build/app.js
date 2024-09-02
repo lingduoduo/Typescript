@@ -24,3 +24,4 @@ let dog = {
         return this.name;
     }
 };
+console.log(dog.getName()); // Buddy
