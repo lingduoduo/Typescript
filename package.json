@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2"
   }
 }
