@@ -1,4 +1,4 @@
-type Person = { name: string, age?: number};
+type Person = { name: string, age?: number };
 type PersonKeys = keyof Person; // 'name' | 'age'
 let person: Person = {
     name: 'John',
@@ -27,3 +27,17 @@ class Human {
 let human = new Human('John', 30);
 console.log(human.getName()); // John
 console.log(human.getAge()); // 30
+
+
+interface HasName {
+    name: string;
+    getName(): string;
+}
+
+let dog: HasName = {
+    name: 'Buddy',
+    getName() {
+        return this.name;
+    }
+}
+console.log(dog.getName()); // Buddy

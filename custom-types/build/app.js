@@ -18,3 +18,9 @@ class Human {
 let human = new Human('John', 30);
 console.log(human.getName()); // John
 console.log(human.getAge()); // 30
+let dog = {
+    name: 'Buddy',
+    getName() {
+        return this.name;
+    }
+};
