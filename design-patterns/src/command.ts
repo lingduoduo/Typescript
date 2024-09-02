@@ -31,3 +31,12 @@ class IncrementCommand implements Command {
         this.counter.setValue(this.counter.getValue() - 1);
     }
 }
+
+let counter = new Counter();
+let incrementCommand = new IncrementCommand(counter);
+incrementCommand.execute();
+incrementCommand.execute();
+incrementCommand.execute();
+console.log(counter.getValue());
+incrementCommand.undo();
+console.log(counter.getValue());
