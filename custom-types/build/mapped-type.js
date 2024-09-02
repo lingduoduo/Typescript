@@ -3,6 +3,7 @@ let user = {
     name: 'John',
     email: 'john@gmail.com'
 };
+console.log(user);
 let user2 = {
     ...user,
     id: 1
