@@ -22,8 +22,10 @@ let user3: ConstantUser = {
     name: 'John',
     email: 'john@gmail.com'
 }
+console.log(user3)
 
 type PartialUser = Partial<User>;
 let user4: PartialUser = {
     name: 'John'
 }
+console.log(user4)

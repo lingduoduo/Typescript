@@ -12,6 +12,8 @@ let user3 = {
     name: 'John',
     email: 'john@gmail.com'
 };
+console.log(user3);
 let user4 = {
     name: 'John'
 };
+console.log(user4);
