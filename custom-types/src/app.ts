@@ -5,6 +5,8 @@ let person: Person = {
     age: 30
 };
 
+type HairColor = string | undefined;
+
 
 class Human {
     private name: string;
